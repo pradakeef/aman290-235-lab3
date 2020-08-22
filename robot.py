@@ -29,7 +29,7 @@ class Robot:
 
     def __init__(self):
         self._history: List[Robot.State] = list()
-        self._state: Robot.state = Robot.State(Direction.NORTH, 10, 1)
+        self._state: Robot.State = Robot.State(Direction.NORTH, 10, 1)
         self._history.append(self._state)
 
     def turn(self):
